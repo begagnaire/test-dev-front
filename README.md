@@ -37,3 +37,15 @@ This is a HTML5 application, built with [Brunch](http://brunch.io).
     * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
 
 Merci et bon travail ! :D
+
+###Mon travail
+J'ai choisi d'utiliser un template bootstrap qui avait environ la même disposition des blocs ainsi qu'un carousel. Ce qui m'a permis d'avoir une partie de la gestion du responsive.
+
+J'ai ajouté des plugins à brunch afin d'avoir les fichiers js de bootstrap aux bons endroits avec les polices.
+
+Dans le menu, le picto du panier n'apparaît pas, pourtant il y est dans le code, surement un problème avec le fichier .svg
+
+Pour le blocs "Bon plans", j'ai profité du thème bootstrap pour la disposition des blocs div, puis j'ai rajouté du css sur ces blocs pour coller au mieux à la maquette.
+
+Je n'ai pas eu le temps d'intégrer la carte interactive.
+
