@@ -38,7 +38,7 @@ This is a HTML5 application, built with [Brunch](http://brunch.io).
 
 Merci et bon travail ! :D
 
-###Mon travail
+### Mon travail
 J'ai choisi d'utiliser un template bootstrap qui avait environ la même disposition des blocs ainsi qu'un carousel. Ce qui m'a permis d'avoir une partie de la gestion du responsive.
 
 J'ai ajouté des plugins à brunch afin d'avoir les fichiers js de bootstrap aux bons endroits avec les polices.
