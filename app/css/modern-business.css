@@ -1,0 +1,280 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+
+  .img-bp {
+
+    /*float: left;*/
+    /*overflow:hidden;*/
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .bon-plan-bloc {
+    text-align: center;
+  }
+
+  .gauche {
+    float: left;
+    width: 50%;
+  }
+
+  .droite {
+    margin-left: 50%;
+    padding-left: 15px;
+  }
+
+  .sous-bp-gauche {
+    float: right;
+  }
+
+  .sous-bp {
+    width: 70%;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .img-bp {
+
+    /*float: left;*/
+    /*overflow:hidden;*/
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+  }
+
+
+  .gauche {
+    text-align: center;
+  }
+
+  .droite {
+    text-align: center;
+  }
+
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("fonts/Rubik-Regular.woff");
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("fonts/Rubik-Bold.woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Rubik Black";
+  src: url("fonts/Rubik-Black.ttf");
+}
+
+@font-face {
+  font-family: "Zooja";
+  src: url("/fonts/Zooja.woff");
+}
+
+.container-fakesite {
+  margin: 25px 5% 0 5%
+}
+
+
+/******* MENU *********/
+nav {
+  background-color: white;
+}
+
+nav a {
+  color : black;
+
+}
+
+#logo img {
+  width : 100px;
+  float: left;
+  top: 15px;
+  position: absolute;
+}
+
+.picto img{
+  max-width: 25px;
+
+}
+
+#loupe {
+  /*margin-left: 10px;
+  margin-right: 10px;*/
+  margin: 0 10px 0 10px;
+}
+
+
+.picto-loupe{
+  color: gray;
+  float: right;
+}
+.menu-fake {
+  margin: auto;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.menu-fake li a, .titre-strat{
+  font-family: "Rubik Black", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/******** CAROUSEL **********/
+
+.carousel-item {
+  height: 95vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.carousel-fake {
+  position: absolute; /* postulat de départ */
+  top: 45%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+  text-align: center;
+  color: white;
+}
+
+.content-carousel {
+  margin-top: 60px;
+}
+
+.titre-carousel{
+  font-family: "Zooja", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size:150px;
+
+}
+
+.img-carousel {
+  margin-bottom: 50px;
+}
+
+.img-1 {
+  position: absolute;
+  width: 40%;
+  top : 0;
+  left: 29%;
+}
+
+.img-2{
+  position: relative;
+  width: 25%;
+  top: 50px;
+
+}
+
+/*****BON PLAN*****/
+
+#bon-plan{
+  padding-top: 10px;
+  text-align: center;
+  font-size: x-large;
+}
+#bon-plan img {
+  width: 50px;
+  color: deepskyblue;
+}
+
+.bp-elm {
+  padding-top: 5px;
+}
+
+.bon-plan-bloc {
+  background-color: gainsboro;
+}
+
+.btn-bp {
+  background-color: #2CBCAE;
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+  border: #2CBCAE;
+}
+
+.fleche-bp{
+  transform: rotate(-90deg);
+  width: 15px;
+  margin-left: 5px;
+}
+
+
+.bp-titre {
+  font-size: larger;
+}
+
+.sous-bp {
+  padding: 30px;
+  background-color: gainsboro;
+  height: 200px;
+ /* -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;*/
+}
+
+.picto-bp {
+  width: 110px;
+}
+
+.bloc-bp-gch {
+  margin-left: 25px;
+  margin-top: 25px;
+  width: 30%;
+}
+
+.bloc-bp-drt {
+  margin-left: 10px;
+  /*margin-top: 25px;
+  margin-bottom: 25px;*/
+  text-align: center;
+}
+
+.bloc-bp-drt p {
+  font-size: x-large;
+}
+
+.sous-droite {
+  background-color: #2CBCAE;
+}
