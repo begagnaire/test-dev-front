@@ -7,8 +7,186 @@
     <link rel="stylesheet" href="/app.css">
     <script src="/app.js"></script>
     <script>require('initialize');</script>
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/modern-business.css" rel="stylesheet">
+    <link href="../css/fonts" rel="stylesheet">
   </head>
   <body>
 
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" id="logo" href="index.html"><img src="source/svg/logo/logo_fakecity.svg"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav menu-fake">
+          <li class="nav-item">
+            <a class="nav-link" href="#">DÉCOUVRIR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SÉJOURNER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SE DIVERTIR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRATIQUE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link picto" href="#"><img src="source/svg/calendar.svg"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link picto" href="#"><img src="source/svg/carte_interactive.svg"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link picto" href="#"><img src="source/svg/panier.svg"></a>
+          </li>
+        </ul>
+      </div>
+      <a class="nav-link picto picto-loupe" href="#">|<img id="loupe" src="source/svg/loupe.svg">|</a>
+    </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('source/photos/Slider_01_visuelLaMysterieuse_gradient.jpg')">
+
+          <div class="carousel-fake">
+            <div class="img-carousel">
+              <img class="img-1" src="source/svg/logo/pastille.svg">
+              <img class="img-2" src="source/svg/logo/flower.svg">
+            </div>
+
+            <p class="titre-carousel">La mystérieuse</p>
+            <p class="content-carousel">Lorem ipsum dolor sit amet, consec-tetur adipising elit, sed do eiusmod</p>
+          </div>
+        </div>
+
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <!--<div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Second Slide</h3>
+            <p>This is a description for the second slide.</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <!--<div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Third Slide</h3>
+            <p>This is a description for the third slide.</p>
+          </div>
+        </div>-->
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container-fakesite">
+
+    <div id="bon-plan">
+      <img id="img-bonplan" src="source/svg/ampoule.svg">
+      <p class="titre-strat">BON PLANS</p>
+    </div>
+
+
+    <!-- Bon plans-->
+
+    <div class="row">
+      <div class="col-lg-6 mb-4">
+        <div class="card h-100 bon-plan-bloc">
+          <div class="card-body">
+            <div class="gauche">
+              <img class="img-bp" src="source/photos/logement.jpg">
+            </div>
+            <div class="droite">
+              <p class="bp-titre">à l'asinerie d'En Manaou</p>
+              <p class="card-text">
+                Quid enim tam absurdum quam delectari multis inanimis rebus, ut honore, ut gloria, ut aedificio, ut vestitu cultuque corporis, animante virtute praedito, eo qui vel amare vel, ut ita dicam, redamare possit, non admodum delectari?
+              </p>
+              <a href="#" class="btn btn-primary btn-bp">EN SAVOIR PLUS <img class="fleche-bp" src="source/svg/fleche.svg"></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mb-4">
+        <div class="card h-100 bon-plan-bloc">
+          <div class="card-body">
+            <div class="gauche">
+              <img class="img-bp" src="source/photos/logement.jpg">
+            </div>
+            <div class="droite">
+              <p class="bp-titre">à La Croisée des Saveurs</p>
+              <p class="card-text">
+                Quid enim tam absurdum quam delectari multis inanimis rebus, ut honore, ut gloria, ut aedificio, ut vestitu cultuque corporis, animante virtute praedito, eo qui vel amare vel, ut ita dicam, redamare possit, non admodum delectari?
+              </p>
+              <a href="#" class="btn btn-primary btn-bp">EN SAVOIR PLUS <img class="fleche-bp" src="source/svg/fleche.svg"></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 mb-4">
+        <div class="card-body sous-bp sous-bp-gauche">
+          <div class="gauche bloc-bp-gch">
+            <img class="picto-bp" src="source/svg/billetterie.svg">
+          </div>
+          <div class="droite bloc-bp-drt">
+            <p><b>PROFITEZ DE -20% SUR NOTRE BILLETERIE !</b></p>
+            <a href="#"><img class="fleche-bp" src="source/svg/fleche-verte.svg"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mb-4">
+
+          <div class="card-body sous-bp sous-droite">
+            <div class="gauche bloc-bp-gch">
+              <img class="picto-bp" src="source/svg/famille.svg">
+            </div>
+            <div class="droite bloc-bp-drt">
+              <p><b>DÉCOUVREZ NOS SÉJOURS SPÉCIAL FAMILLES</b></p>
+              <a href="#"><img class="fleche-bp" src="source/svg/fleche.svg"></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
